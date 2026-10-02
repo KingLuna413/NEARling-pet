@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEARling Â· a little friend that grows with the chain</title>
+  <meta name="description" content="NEARling is a living pixel pet for NEAR. Hold $NRLING to feed it, play daily, breed new friends, earn sNearling and climb the leaderboard. Launches on nearly.trade." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">â—†</span>
+      <span class="title">NEARling</span>
+      <span class="tick">$NRLING</span>
+      <span class="badge" id="mode" data-mode="local">local</span>
+    </div>
+    <nav class="nav" aria-label="Sections">
+      <a href="#/home">Home</a>
+      <a href="#/pet">My NEARling</a>
+      <a href="#/playground">Playground</a>
+      <a href="#/wardrobe">Wardrobe</a>
+      <a href="#/nursery">Nursery</a>
+      <a href="#/rewards">Rewards</a>
+      <a href="#/how">How</a>
+    </nav>
+    <span class="chip" id="account-chip">guest</span>
+    <button id="mute" class="icon-btn" type="button" aria-pressed="true">Sound off</button>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="foot">
+    <p class="small muted">NEARling is a community game. $NRLING is not live yet â€” everything here is a demo until launch. Nothing here is financial advice; tokens are risky and can go to zero. You launch it yourself on nearly.trade.</p>
+    <p class="small muted">Reads NEAR mainnet read-only. Never asks for a seed phrase and never signs for you.</p>
+  </footer>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
